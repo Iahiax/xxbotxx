@@ -1,0 +1,25 @@
+[
+    {
+        "name": "{keyword}_command_{keyword}",
+        "comment":"{keyword} must match the keyword specified in config yaml",
+        "value":"!{keyword}"
+    },
+
+    {
+        "name": "{keyword}_command_help",
+        "value":"help"
+    },
+    {
+        "name": "{keyword}_help_message",
+        "value":"Welcome to the {botname} bot\n\n!{keyword} help - To display this message\n!{keyword} me - Display basic information about your profile"
+    },
+
+    {
+        "name": "{keyword}_command_me",
+        "value":"me"
+    },
+    {
+        "name": "{keyword}_subscriber_message",
+        "value":"Nickname: {nickname} (ID: {id})\nStatus Message: {status}\nLevel: {level} ({percentage}% completed)"
+    }
+]
