@@ -1,0 +1,25 @@
+keyword: keyword # keyword #single word only
+framework:
+  developer: #your id here
+  language: en #default response language here
+  login:
+    email: # bot email here
+    password: # bot password here
+    onlineState: 1 # online state here
+  command:
+    ignore:
+      official: true # whether or not an official bot will trigger a command (internal)
+      unofficial: true # whether or not an unofficial bot will trigger a command (internal)
+      self: true  # whether or not the bot will process its own messages and trigger its own commands (internal)
+  message:
+    ignore:
+      self: true # whether or not the bot will process its own messages (internal)
+  subscriptions:
+    messages:
+      channel:
+        enabled: true #subscribe to channel messages  (server)
+        tipping: true # subscribe to channel message tip events  (server)
+      private:
+        enabled: true # subscribe to private messages (server)
+        tipping: false  # subscribe to private message tip events  (server) - NOT IMPLEMENTED
+
